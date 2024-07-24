@@ -1,0 +1,532 @@
+/* Colors */
+
+/*  13367D*/
+/* E3F0F8 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 375px) {
+  /* Navbar Starts */
+  .main {
+    border: 0.1px solid white;
+    background-color: #e3f0f8;
+  }
+
+  .navbar {
+    display: none;
+  }
+  .navbar.active {
+    display: block;
+    animation-name: animateNav;
+    animation-duration: 0.4s;
+
+    background-color: white;
+    padding-top: 15px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .hero-section {
+    position: relative;
+  }
+  .logoimg {
+    width: 140px;
+    /* border: 2px solid blanchedalmond; */
+  }
+
+  .logo-icon {
+    display: flex;
+
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .hamburg-menu {
+    /* border: 2px solid gold; */
+    padding-top: 10px;
+    font-size: 1.8rem;
+  }
+
+  .nav-links li {
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: black;
+  }
+  .hr-style {
+    border: 1px solid rgb(247, 243, 243);
+  }
+
+  .talk-btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .talk-btn-cls {
+    /* border: 1px solid rgb(228, 221, 207); */
+    width: 100%;
+    padding: 10px;
+    border-radius: 1em;
+    background-color: #13367d;
+    color: white;
+    font-size: larger;
+    border: none;
+  }
+
+  @keyframes animateNav {
+    from {
+      opacity: 0;
+      margin-top: 0px;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* Navbar Ends */
+
+  .h1-header-1 {
+    text-align: center;
+    padding-top: 130px;
+    font-size: 2.7rem;
+    color: #13367d;
+  }
+
+  .h2-header-1 {
+    color: #13367d;
+    text-align: center;
+    line-height: 150%;
+    padding-top: 30px;
+    font-size: 1.5rem;
+  }
+  .cro {
+    background-color: white;
+  }
+  .inhouse {
+    background-color: white;
+  }
+
+  .p1 {
+    padding: 40px 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 140%;
+  }
+
+  .talk-btn-cls2 {
+    /* border: 1px solid rgb(228, 221, 207); */
+    width: 50%;
+    padding: 10px;
+    border-radius: 1em;
+    background-color: #13367d;
+    color: white;
+    font-size: larger;
+    border: none;
+  }
+
+  .btn2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  /* Hero Section Ends */
+}
+
+@media (max-width: 425px) {
+  /* Navbar Starts */
+  .main {
+    border: 0.1px solid white;
+    background-color: #e3f0f8;
+  }
+
+  .navbar {
+    display: none;
+  }
+  .navbar.active {
+    display: block;
+    animation-name: animateNav;
+    animation-duration: 0.4s;
+
+    background-color: white;
+    padding-top: 15px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .hero-section {
+    position: relative;
+  }
+  .logoimg {
+    width: 140px;
+    /* border: 2px solid blanchedalmond; */
+  }
+
+  .logo-icon {
+    display: flex;
+
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .hamburg-menu {
+    /* border: 2px solid gold; */
+    padding-top: 10px;
+    font-size: 1.8rem;
+  }
+
+  .nav-links li {
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: black;
+  }
+  .hr-style {
+    border: 1px solid rgb(247, 243, 243);
+  }
+
+  .talk-btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .talk-btn-cls {
+    /* border: 1px solid rgb(228, 221, 207); */
+    width: 100%;
+    padding: 10px;
+    border-radius: 1em;
+    background-color: #13367d;
+    color: white;
+    font-size: larger;
+    border: none;
+  }
+
+  @keyframes animateNav {
+    from {
+      opacity: 0;
+      margin-top: 0px;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* Navbar Ends */
+
+  .h1-header-1 {
+    text-align: center;
+    padding-top: 130px;
+    font-size: 1.2rem;
+    color: #13367d;
+  }
+
+  .h2-header-1 {
+    color: #13367d;
+    text-align: center;
+    line-height: 150%;
+    padding-top: 30px;
+    font-size: 1.5rem;
+  }
+  .cro {
+    background-color: white;
+  }
+  .inhouse {
+    background-color: white;
+  }
+
+  .p1 {
+    padding: 40px 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 140%;
+  }
+
+  .talk-btn-cls2 {
+    /* border: 1px solid rgb(228, 221, 207); */
+    width: 50%;
+    padding: 10px;
+    border-radius: 1em;
+    background-color: #13367d;
+    color: white;
+    font-size: larger;
+    border: none;
+  }
+
+  .btn2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  /* Hero Section Ends */
+}
+
+@media (max-width: 768px) {
+  /* Navbar Starts */
+  .main {
+    border: 0.1px solid white;
+    background-color: #e3f0f8;
+  }
+
+  .navbar {
+    display: none;
+  }
+  .navbar.active {
+    display: block;
+    animation-name: animateNav;
+    animation-duration: 0.4s;
+
+    background-color: white;
+    padding-top: 15px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .hero-section {
+    position: relative;
+  }
+  .logoimg {
+    width: 140px;
+    /* border: 2px solid blanchedalmond; */
+  }
+
+  .logo-icon {
+    display: flex;
+
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .hamburg-menu {
+    /* border: 2px solid gold; */
+    padding-top: 10px;
+    font-size: 1.8rem;
+  }
+
+  .nav-links li {
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: black;
+  }
+  .hr-style {
+    border: 1px solid rgb(247, 243, 243);
+  }
+
+  .talk-btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .talk-btn-cls {
+    /* border: 1px solid rgb(228, 221, 207); */
+    width: 100%;
+    padding: 10px;
+    border-radius: 1em;
+    background-color: #13367d;
+    color: white;
+    font-size: larger;
+    border: none;
+  }
+
+  @keyframes animateNav {
+    from {
+      opacity: 0;
+      margin-top: 0px;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* Navbar Ends */
+
+  .h1-header-1 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 3.7rem;
+
+    color: #13367d;
+  }
+
+  .h2-header-1 {
+    color: #13367d;
+    text-align: center;
+    line-height: 150%;
+    padding-top: 30px;
+    font-size: 2rem;
+  }
+  .cro {
+    background-color: white;
+  }
+  .inhouse {
+    background-color: white;
+  }
+
+  .p1 {
+    padding: 40px 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 140%;
+  }
+
+  .talk-btn-cls2 {
+    /* border: 1px solid rgb(228, 221, 207); */
+    width: 50%;
+    padding: 10px;
+    border-radius: 1em;
+    background-color: #13367d;
+    color: white;
+    font-size: larger;
+    border: none;
+  }
+
+  .btn2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  /* Hero Section Ends */
+}
+
+@media (max-width: 1024px) {
+  /* Navbar Starts */
+  .main {
+    border: 0.1px solid white;
+    background-color: #e3f0f8;
+  }
+
+  .navbar {
+    display: none;
+  }
+  .navbar.active {
+    display: block;
+    animation-name: animateNav;
+    animation-duration: 0.4s;
+
+    background-color: white;
+    padding-top: 15px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  .hero-section {
+    position: relative;
+  }
+  .logoimg {
+    width: 140px;
+    /* border: 2px solid blanchedalmond; */
+  }
+
+  .logo-icon {
+    display: flex;
+
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .hamburg-menu {
+    /* border: 2px solid gold; */
+    padding-top: 10px;
+    font-size: 1.8rem;
+  }
+
+  .nav-links li {
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: black;
+  }
+  .hr-style {
+    border: 1px solid rgb(247, 243, 243);
+  }
+
+  .talk-btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .talk-btn-cls {
+    /* border: 1px solid rgb(228, 221, 207); */
+    width: 100%;
+    padding: 10px;
+    border-radius: 1em;
+    background-color: #13367d;
+    color: white;
+    font-size: larger;
+    border: none;
+  }
+
+  @keyframes animateNav {
+    from {
+      opacity: 0;
+      margin-top: 0px;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* Navbar Ends */
+
+  .h1-header-1 {
+    text-align: center;
+    padding-top: 130px;
+    font-size: 3.7rem;
+    color: #13367d;
+  }
+
+  .h2-header-1 {
+    color: #13367d;
+    text-align: center;
+    line-height: 150%;
+    padding-top: 30px;
+    font-size: 2rem;
+  }
+  .cro {
+    background-color: white;
+  }
+  .inhouse {
+    background-color: white;
+  }
+
+  .p1 {
+    padding: 40px 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 140%;
+  }
+
+  .talk-btn-cls2 {
+    /* border: 1px solid rgb(228, 221, 207); */
+    width: 50%;
+    padding: 10px;
+    border-radius: 1em;
+    background-color: #13367d;
+    color: white;
+    font-size: larger;
+    border: none;
+  }
+
+  .btn2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  /* Hero Section Ends */
+}
+
