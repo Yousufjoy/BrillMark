@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 375px) {
+@media (min-width: 0px) {
   /* Navbar Starts */
   .main {
     border: 0.1px solid white;
@@ -139,7 +139,7 @@
   /* Hero Section Ends */
 }
 
-@media (max-width: 425px) {
+@media (min-width: 425px) {
   /* Navbar Starts */
   .main {
     border: 0.1px solid white;
@@ -225,8 +225,12 @@
   .h1-header-1 {
     text-align: center;
     padding-top: 130px;
-    font-size: 1.2rem;
+    font-size: 2.8rem;
     color: #13367d;
+    width: 400px;
+
+    margin-left: 20px;
+    margin-bottom: 30px;
   }
 
   .h2-header-1 {
@@ -252,7 +256,7 @@
 
   .talk-btn-cls2 {
     /* border: 1px solid rgb(228, 221, 207); */
-    width: 50%;
+    width: 200px;
     padding: 10px;
     border-radius: 1em;
     background-color: #13367d;
@@ -269,7 +273,7 @@
   /* Hero Section Ends */
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   /* Navbar Starts */
   .main {
     border: 0.1px solid white;
@@ -354,9 +358,10 @@
 
   .h1-header-1 {
     text-align: center;
-    padding-top: 100px;
-    font-size: 3.7rem;
-
+    padding-top: 50px;
+    font-size: 3rem;
+    width: 600px;
+    margin-left: 100px;
     color: #13367d;
   }
 
@@ -364,7 +369,7 @@
     color: #13367d;
     text-align: center;
     line-height: 150%;
-    padding-top: 30px;
+    padding-top: 10px;
     font-size: 2rem;
   }
   .cro {
@@ -383,7 +388,7 @@
 
   .talk-btn-cls2 {
     /* border: 1px solid rgb(228, 221, 207); */
-    width: 50%;
+    width: 200px;
     padding: 10px;
     border-radius: 1em;
     background-color: #13367d;
@@ -400,7 +405,7 @@
   /* Hero Section Ends */
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   /* Navbar Starts */
   .main {
     border: 0.1px solid white;
@@ -470,6 +475,139 @@
     color: white;
     font-size: larger;
     border: none;
+  }
+
+  @keyframes animateNav {
+    from {
+      opacity: 0;
+      margin-top: 0px;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* Navbar Ends */
+
+  .h1-header-1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3rem;
+    width: 600px;
+    margin-left: 100px;
+    color: #13367d;
+    margin-left: 200px;
+  }
+
+
+  .h2-header-1 {
+    color: #13367d;
+    text-align: center;
+    line-height: 150%;
+    padding-top: px;
+    font-size: 2rem;
+  }
+  .cro {
+    background-color: white;
+  }
+  .inhouse {
+    background-color: white;
+  }
+
+  .p1 {
+    padding: 40px 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 140%;
+  }
+
+  .talk-btn-cls2 {
+    /* border: 1px solid rgb(228, 221, 207); */
+    width: 200px;
+    padding: 10px;
+    border-radius: 1em;
+    background-color: #13367d;
+    color: white;
+    font-size: larger;
+    border: none;
+  }
+
+  .btn2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  /* Hero Section Ends */
+}
+
+@media (min-width: 1440px) {
+  /* Navbar Starts */
+  .main {
+    border: 0.1px solid white;
+    background-color: #e3f0f8;
+  }
+
+  .navbar {
+    display: block;
+
+    margin-top: 10px;
+    margin-right: 300px;
+  }
+
+  .hero-section {
+    position: relative;
+  }
+  .logoimg {
+    width: 200px;
+  }
+
+  .logo-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+  }
+  .hamburg-menu {
+    padding-top: 10px;
+    font-size: 1.8rem;
+    display: none;
+  }
+
+  .nav-links li {
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 20px;
+    text-align: center;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: black;
+  }
+  .hr-style {
+    border: 1px solid rgb(247, 243, 243);
+    display: none;
+  }
+
+  .talk-btn {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .talk-btn-cls {
+    /* border: 1px solid rgb(228, 221, 207); */
+    width: 100%;
+    padding: 10px;
+    border-radius: 1em;
+    background-color: #13367d;
+    color: white;
+    font-size: larger;
+    border: none;
+  }
+
+  .navbar .nav-links {
+    display: flex;
+  }
+  .large-screen-nav {
+    display: flex;
+    justify-content: space-between;
   }
 
   @keyframes animateNav {
@@ -486,8 +624,10 @@
   .h1-header-1 {
     text-align: center;
     padding-top: 130px;
-    font-size: 3.7rem;
+    font-size: 4rem;
     color: #13367d;
+    width: 800px;
+    margin-left: 280px;
   }
 
   .h2-header-1 {
@@ -509,11 +649,13 @@
     font-size: 1.2rem;
     text-align: center;
     line-height: 140%;
+    width: 800px;
+    margin-left: 280px;
   }
 
   .talk-btn-cls2 {
     /* border: 1px solid rgb(228, 221, 207); */
-    width: 50%;
+    width: 200px;
     padding: 10px;
     border-radius: 1em;
     background-color: #13367d;
@@ -529,4 +671,3 @@
   }
   /* Hero Section Ends */
 }
-
