@@ -137,6 +137,145 @@
     margin-bottom: 50px;
   }
   /* Hero Section Ends */
+
+  /* Campaign section starts */
+  .campaign {
+    background-image: url("./images/campaign.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: padding-box;
+    background-origin: content-box;
+  }
+
+  .campaign-heading-1 {
+    font-size: 2rem;
+    color: #13367d;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .campaing-paragraph-1 {
+    color: #13367d;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .campaign-partners ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .campaign-partners ul li {
+    list-style-type: none;
+  }
+
+  .campaign-number {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .campaign-number .box {
+    padding: 30px 0px;
+  }
+
+  .campaign-number h2 {
+    color: #13367d;
+    font-size: 2.5rem;
+  }
+
+  .campaign-number p {
+    color: #13367d;
+    font-size: 1.4rem;
+    font-weight: bolder;
+  }
+
+  .campaign-heading-2 {
+    text-align: center;
+    margin: 20px 0px;
+  }
+  .campaing-paragraph-2 {
+    text-align: center;
+    margin: 20px 0px;
+  }
+
+  /* Testimonial starts */
+  .testimonial {
+    background-color: #f4f7fa;
+  }
+
+  .testimonial-h1 {
+    color: #13367d;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 20px 0px;
+  }
+
+  .testimonial-p {
+    color: #13367d;
+    text-align: center;
+
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+    background-color: white;
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+
+  q {
+    font-style: italic;
+  }
+
+  /* Add a blue color to the author */
+  .author {
+    color: cornflowerblue;
+  }
 }
 
 @media (min-width: 425px) {
@@ -227,7 +366,7 @@
     padding-top: 130px;
     font-size: 2.8rem;
     color: #13367d;
-    width: 400px;
+    width: 320px;
 
     margin-left: 50px;
     margin-bottom: 30px;
@@ -271,6 +410,144 @@
     margin-bottom: 50px;
   }
   /* Hero Section Ends */
+  /* Campaign section starts */
+  .campaign {
+    background-image: url("./images/campaign.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: padding-box;
+    background-origin: content-box;
+  }
+
+  .campaign-heading-1 {
+    font-size: 2rem;
+    color: #13367d;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .campaing-paragraph-1 {
+    color: #13367d;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .campaign-partners ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .campaign-partners ul li {
+    list-style-type: none;
+  }
+
+  .campaign-number {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .campaign-number .box {
+    padding: 30px 0px;
+  }
+
+  .campaign-number h2 {
+    color: #13367d;
+    font-size: 2.5rem;
+  }
+
+  .campaign-number p {
+    color: #13367d;
+    font-size: 1.4rem;
+    font-weight: bolder;
+  }
+
+  .campaign-heading-2 {
+    text-align: center;
+    margin: 20px 0px;
+  }
+  .campaing-paragraph-2 {
+    text-align: center;
+    margin: 20px 0px;
+  }
+
+  /* Testimonial starts */
+  .testimonial {
+    background-color: #f4f7fa;
+  }
+
+  .testimonial-h1 {
+    color: #13367d;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px 0px;
+  }
+
+  .testimonial-p {
+    color: #13367d;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+  }
+
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+    background-color: white;
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+
+  q {
+    font-style: italic;
+  }
+
+  /* Add a blue color to the author */
+  .author {
+    color: cornflowerblue;
+  }
 }
 
 @media (min-width: 768px) {
@@ -403,6 +680,158 @@
     margin-bottom: 50px;
   }
   /* Hero Section Ends */
+  /* Campaign section starts */
+  .campaign {
+    background-image: url("./images/campaign.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: padding-box;
+    background-origin: content-box;
+  }
+
+  .campaign-heading-1 {
+    font-size: 2.5rem;
+    color: #13367d;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .campaing-paragraph-1 {
+    color: #13367d;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .campaign-partners ul {
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 50px auto;
+  }
+
+  .campaign-partners ul li {
+    list-style-type: none;
+  }
+
+  .campaign-number {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+  }
+
+  .campaign-number .box {
+    padding: 30px 0px;
+  }
+
+  .campaign-number h2 {
+    color: #13367d;
+    font-size: 2.5rem;
+  }
+
+  .campaign-number p {
+    color: #13367d;
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+
+  .campaign-heading-2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 20px 0px;
+  }
+  .campaing-paragraph-2 {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 20px 0px;
+  }
+
+  /* Testimonial starts */
+  .testimonial {
+    background-color: #f4f7fa;
+  }
+
+  .testimonial-h1 {
+    color: #13367d;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px 0px;
+  }
+
+  .testimonial-p {
+    color: #13367d;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-bottom: 40px;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+    width: 80%;
+    margin: 0px auto;
+  }
+
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+    background-color: white;
+  }
+  .mySlides .qoute {
+    font-size: 1.5rem;
+  }
+
+  .mySlides .author {
+    padding: 10px 0px;
+    font-size: 1.2rem;
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+
+  q {
+    font-style: italic;
+  }
+
+  /* Add a blue color to the author */
+  .author {
+    color: cornflowerblue;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -536,6 +965,161 @@
     margin-bottom: 50px;
   }
   /* Hero Section Ends */
+  /* Campaign section starts */
+  .campaign {
+    background-image: url("./images/campaign.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: padding-box;
+    background-origin: content-box;
+  }
+
+  .campaign-heading-1 {
+    font-size: 3.5rem;
+    color: #13367d;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .campaing-paragraph-1 {
+    color: #13367d;
+    font-size: 1.7rem;
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  .campaign-partners ul {
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 0px auto;
+  }
+
+  .campaign-partners ul li {
+    list-style-type: none;
+  }
+
+  .campaign-number {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+
+    justify-content: space-evenly;
+  }
+
+  .campaign-number .box {
+    padding: 30px 0px;
+  }
+
+  .campaign-number h2 {
+    color: #13367d;
+    font-size: 2.5rem;
+  }
+
+  .campaign-number p {
+    color: #13367d;
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+
+  .campaign-heading-2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 20px 0px;
+  }
+  .campaing-paragraph-2 {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 20px 0px;
+  }
+  /* Testimonial starts */
+  .testimonial {
+    background-color: #f4f7fa;
+  }
+
+  .testimonial-h1 {
+    color: #13367d;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px 0px;
+  }
+
+  .testimonial-p {
+    color: #13367d;
+    text-align: center;
+    font-size: 1.9rem;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    width: 70%;
+    margin: 0px auto;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+    background-color: white;
+  }
+  .mySlides .qoute {
+    font-size: 1.5rem;
+  }
+
+  .mySlides .author {
+    padding: 10px 0px;
+    font-size: 1.2rem;
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+
+  q {
+    font-style: italic;
+  }
+
+  /* Add a blue color to the author */
+  .author {
+    color: cornflowerblue;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -633,7 +1217,7 @@
     color: #13367d;
     text-align: center;
     line-height: 150%;
-    padding-top: 30px;
+
     font-size: 2rem;
   }
   .cro {
@@ -666,9 +1250,167 @@
   .btn2 {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    padding: 50px 0px;
   }
   /* Hero Section Ends */
+  /* Campaign section starts */
+  .campaign {
+    background-image: url("./images/campaign.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-clip: padding-box;
+    background-origin: content-box;
+  }
+
+  .campaign-heading-1 {
+    font-size: 3.5rem;
+    color: #13367d;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .campaing-paragraph-1 {
+    color: #13367d;
+    font-size: 1.7rem;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  .campaign-partners ul {
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 55px auto;
+  }
+
+  .campaign-partners ul li {
+    list-style-type: none;
+  }
+
+  .campaign-number {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    text-align: center;
+    margin-left: 450px;
+  }
+
+  .campaign-number .box {
+    padding: 30px 0px;
+  }
+
+  .campaign-number h2 {
+    color: #13367d;
+    font-size: 4rem;
+  }
+
+  .campaign-number p {
+    color: #13367d;
+    font-size: 1.3rem;
+    font-weight: bolder;
+  }
+
+  .campaign-heading-2 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 20px 0px;
+  }
+  .campaing-paragraph-2 {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 20px 0px;
+  }
+  /* Testimonial starts */
+
+  .testimonial {
+    background-color: #f4f7fa;
+  }
+
+  .testimonial-h1 {
+    color: #13367d;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px 0px;
+  }
+
+  .testimonial-p {
+    color: #13367d;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-left: 10px;
+    margin-bottom: 40px;
+    width: 50%;
+    margin: 30px auto;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    position: relative;
+    background: #f1f1f1f1;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+    background-color: white;
+  }
+  .mySlides .qoute {
+    font-size: 1.5rem;
+  }
+
+  .mySlides .author {
+    padding: 10px 0px;
+    font-size: 1.2rem;
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+
+  q {
+    font-style: italic;
+  }
+
+  /* Add a blue color to the author */
+  .author {
+    color: cornflowerblue;
+  }
 }
 
 @media (min-width: 1900px) {
@@ -695,7 +1437,7 @@
   .logo-icon {
     display: flex;
     justify-content: space-between;
-    margin-left: 200px;
+    margin-left: 400px;
   }
   .hamburg-menu {
     padding-top: 10px;
